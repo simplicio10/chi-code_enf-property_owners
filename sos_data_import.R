@@ -2,6 +2,7 @@
 library(tidyverse)
 
 # data and documentation available at https://www.ilsos.gov/data/bus_serv_home.html
+# download and save in a folder called sos_business_data (files are too large to be reasonably included in the repo)
 # files are updated on (roughly) a daily or weekly basis
 # script currently based on already downloaded files but can be updated to download new files
 # the files are provided as fwfs and have a first and last row containing metadata hence the weird head(-1) thing
